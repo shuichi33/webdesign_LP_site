@@ -1,0 +1,415 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  color: rgb(0, 0, 0);
+}
+.header-ttl-img {
+  width: 200px;
+}
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+  color: darkgrey;
+}
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.eyecatch {
+  position: relative;
+}
+
+.eyecatch-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.eyecatch-img-container {
+  width: 50%;
+  margin: 0 0 0 auto;
+}
+
+.catch-copy-container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: 0 0 8% 30%;
+}
+
+.catch-copy {
+  font-family: "Fuzzy Bubbles", cursive;
+  color: rgb(148, 21, 38);
+  font-size: 40px;
+  line-height: 200%;
+}
+
+.catch-copy-jp {
+  color: rgb(148, 21, 38);
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 7%;
+}
+
+.font-small-copyright {
+  font-size: small;
+  color: darkgrey;
+}
+
+.blue {
+  color: rgb(72, 120, 160);
+}
+
+.font-small-news {
+  color: rgb(148, 21, 38);
+}
+
+.title1::before {
+  content: "News";
+  font-size: small;
+  display: block;
+  color: rgb(148, 21, 38);
+  margin-bottom: 10px;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+.title1 {
+  color: dimgray;
+}
+
+dl {
+  width: 600px;
+  line-height: 150%;
+}
+
+dt {
+  border-bottom: 1px solid darkgrey;
+  float: left;
+  padding: 10px 10px;
+  color: darkgrey;
+}
+
+dd {
+  border-bottom: 1px solid darkgrey;
+  padding: 10px 10px;
+  color: darkgrey;
+}
+
+.news-list-btn {
+  color: white;
+  background-color: rgb(148, 21, 38);
+  border-radius: 100vh;
+  margin: 0 20px;
+  padding: 2px 10px;
+}
+
+.news-list {
+  font-size: 80%;
+  border-top: 2px solid darkgrey;
+  border-bottom: 2px solid darkgrey;
+  margin-top: 20px;
+}
+
+.news-container {
+  width: 40%;
+  margin: 50px auto;
+}
+
+.about-img {
+  width: 20%;
+  display: block;
+}
+
+.title2 {
+  color: dimgray;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.title2::before {
+  content: "About";
+  font-size: small;
+  display: block;
+  color: rgb(148, 21, 38);
+  margin-bottom: 10px;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+.about-container {
+  background-color: rgb(245 245 245);
+  padding: 25px 0;
+}
+
+.about-container-text {
+  float: left;
+  color: darkgrey;
+  font-size: 80%;
+  line-height: 150%;
+  margin-right: 5%;
+}
+
+.about-container-text-img {
+  display: flex;
+  justify-content: center;
+}
+
+/* service サービス内容 */
+
+.title3::before {
+  content: "Service";
+  font-size: small;
+  display: block;
+  color: rgb(148, 21, 38);
+  margin-bottom: 10px;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+.title3 {
+  margin-bottom: 30px;
+  color: dimgray;
+}
+
+.service-container {
+  padding: 25px 15%;
+}
+
+.grid_parent {
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 2fr 2fr;
+  color: white;
+  font-size: 80%;
+}
+
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: rgb(187, 30, 103);
+}
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: rgb(179, 102, 159);
+  display: flex;
+}
+.box3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: rgb(211, 175, 211);
+  display: flex;
+}
+
+.service-img {
+  width: 30%;
+  display: block;
+  margin: 2% auto;
+}
+
+.service-title1 {
+  text-align: center;
+}
+
+.service-text-box1 {
+  margin: 5% 10%;
+  line-height: 160%;
+}
+
+.service-text-box2 {
+  margin: 5%;
+  line-height: 150%;
+}
+
+/* blog ブログ */
+
+.blog-container {
+  background-color: rgb(245 245 245);
+  padding: 25px 15%;
+}
+
+.title4::before {
+  content: "Blog";
+  font-size: small;
+  display: block;
+  color: rgb(148, 21, 38);
+  margin-bottom: 10px;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+.title4 {
+  margin-bottom: 30px;
+  color: dimgray;
+}
+
+.blog-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.blog-img1 {
+  width: 100%;
+  border-radius: 5% 5% 0 0;
+}
+
+.blog-card {
+  width: 30%;
+  position: relative;
+  border-radius: 5%;
+  background: white;
+}
+
+.blog-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background: rgb(187, 30, 103);
+  padding: 3%;
+  font-size: 80%;
+  border-top-left-radius: 20%;
+}
+
+.blog-textbox {
+  padding: 5%;
+  color: dimgray;
+  font-size: 80%;
+}
+
+.blog-date-tag {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.blog-btn {
+  text-align: center;
+  margin: 5% auto;
+  width: 15%;
+  background-color: white;
+  border: 2px solid rgb(187, 30, 103);
+  border-radius: 100vh;
+  padding: 2% 4%;
+  color: rgb(187, 30, 103);
+  display: block;
+}
+
+/* company 会社概要 */
+
+.title5::before {
+  content: "Company";
+  font-size: small;
+  display: block;
+  color: rgb(148, 21, 38);
+  margin-bottom: 10px;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+.company-container {
+  padding: 5% 20%;
+  color: dimgrey;
+}
+table {
+  border-collapse: collapse;
+  color: dimgrey;
+  width: 100%;
+  font-size: 80%;
+  margin: 20px auto;
+}
+
+th,
+td {
+  border: solid 1px dimgrey;
+  padding: 2%;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(243, 243, 243);
+}
+
+/* 採用情報　社員インタビュー */
+
+.recruitment-interview-container {
+  display: flex;
+  justify-content: center;
+}
+
+.recruitment-wrapper {
+  position: relative;
+}
+
+.interview-wrapper {
+  position: relative;
+}
+
+.recruitment-text {
+  position: absolute;
+  color: white;
+  top:50%;
+  left:50%;
+  font-size: 120%;
+}
+
+.interview-text {
+  position: absolute;
+  color: white;
+  top:50%;
+  left:50%;
+  font-size:120%;
+}
+
+.interview-img {
+  width: 100%;
+}
+.recruitment-img {
+  width: 100%;
+}
+
+/* お問合せ */
+
+.contact-container{
+  padding: 10% 0;
+  display: block;
+  text-align: center;
+}
+
+.contact-text{
+  color: dimgrey;
+  margin-bottom: 10%;
+}
+
+.contact-btn{
+  background: linear-gradient(90deg,#e94cdc,#a03d77);
+  padding: 3% 8%;
+  color: white;
+  border-radius: 100vh;
+  border-bottom:5px solid #6b214c;
+  position:relative;
+  
+}
+
+.contact-btn::before{
+  content: "";
+  background: url(../img/mailicon.svg)no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, -50%);
+}
+
+.copyright{
+  color: dimgray;
+  background-color:rgb(245 245 245);
+  padding: 1%;
+  text-align: center;
+
+}
