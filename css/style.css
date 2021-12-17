@@ -342,26 +342,28 @@ th {
 
 .recruitment-wrapper {
   position: relative;
+  width: 100%;
 }
 
 .interview-wrapper {
   position: relative;
+  width: 100%;
 }
 
 .recruitment-text {
   position: absolute;
   color: white;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   font-size: 120%;
 }
 
 .interview-text {
   position: absolute;
   color: white;
-  top:50%;
-  left:50%;
-  font-size:120%;
+  top: 50%;
+  left: 50%;
+  font-size: 120%;
 }
 
 .interview-img {
@@ -373,30 +375,28 @@ th {
 
 /* お問合せ */
 
-.contact-container{
+.contact-container {
   padding: 10% 0;
   display: block;
   text-align: center;
 }
 
-.contact-text{
+.contact-text {
   color: dimgrey;
-  margin-bottom: 10%;
 }
 
-.contact-btn{
-  background: linear-gradient(90deg,#e94cdc,#a03d77);
+.contact-btn {
+  background: linear-gradient(90deg, #e94cdc, #a03d77);
   padding: 3% 8%;
   color: white;
   border-radius: 100vh;
-  border-bottom:5px solid #6b214c;
-  position:relative;
-  
+  border-bottom: 5px solid #6b214c;
+  position: relative;
 }
 
-.contact-btn::before{
+.contact-btn::before {
   content: "";
-  background: url(../img/mailicon.svg)no-repeat;
+  background: url(../img/mailicon.svg) no-repeat;
   background-size: cover;
   position: absolute;
   top: 50%;
@@ -406,10 +406,16 @@ th {
   transform: translate(0, -50%);
 }
 
-.copyright{
+.copyright {
   color: dimgray;
-  background-color:rgb(245 245 245);
+  background-color: rgb(245 245 245);
   padding: 1%;
   text-align: center;
+}
 
+.line {
+  width: 3px;
+  height: 80px;
+  background-color: #a03d77;
+  margin: 5% auto;
 }
